@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    ;
+}
+
+.wraper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+width: 400px;
+padding: 32px;
+border-radius: 8px;
+border: 1px solid #e0e0e2;
+
+}
+.form{
+    width: 100%;
+    display: flex;
+flex-flow: column;
+justify-content: flex-start;
+row-gap: 16px;
+}
+.logo{
+    width: 100px;
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.titel{
+    font-size: 19px;
+}
+.inputcontainer2{
+        display: inline-block;
+        font-family: 12px;
+        margin-bottom: 16px;
+}
+.span{
+    display: block;
+}
+.search{
+ height: 48px;
+    width: 100%;
+    padding: 8px;
+    outline: unset;
+    border-radius: 8px;
+    border: 1px solid #d32f2f;
+    &:focus{
+        border: 1px solid #19bfd3;
+        color: #19bfd3;
+    }
+
+}
+.vorod{
+    height: 48px;
+    width: 100%;
+    padding: 8px;
+    border-radius:8px;
+    outline: unset;
+    background-color: #ef4056;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+.error{
+    color: #d32f2f;
+    opacity: 1;
+
+}
+.search:focus ~ .error{
+    opacity: 0; 
+
+}
+.p{
+    font-size: 11px;
+
+}
+.spann{
+    color: #19bfd3;
+}
+.inputcontainer{
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+}
